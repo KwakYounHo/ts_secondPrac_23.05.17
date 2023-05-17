@@ -9,4 +9,4 @@ function first(arrayData: string[]) :string[] {
 }
 
 let data = ["첫 번째", "두 번째", "세 번째", "네 번째"];
-first(data);
+console.log(first(data));
