@@ -27,7 +27,19 @@
 // let data = ["첫 번째", "두 번째", "세 번째", "네 번째"];
 // console.log(first(data));
 
+
+//? jsDoc 주석 만들기!
+//? alt + shift + a를 누른다
+//? 주석이 나오면 *을 하나 더 붙여준다
+//? 꼭 함수 위에 작성해야 함!
+
 //! 강사님의 방법
+/** 
+ * @params {array} arrayData
+ * @params {string} insertString
+ * @return 문자열로 된 배열입니다.
+ * * 그냥 쓰면?
+ */
 function first(arrayData: string[], insertString:string) :string[] {
   const arr:string[] = [...arrayData];
   arr.pop();
